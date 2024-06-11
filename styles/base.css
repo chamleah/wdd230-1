@@ -1,0 +1,49 @@
+html {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+h1{
+    font-size: 1.7em;
+}
+h2{
+    font-size: 1.39em;
+}
+
+main{
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    background-color: floralwhite;
+    border-radius: 1.5625em;
+}
+
+header{
+    background-color: deepskyblue;
+    border: 0.125em solid cyan;
+    padding: 0.2em;
+    border-radius: 1.5625em;
+}
+
+.responsive {
+    float: right;
+    margin-top: 2.6em;
+    margin-right: 3em;
+    max-width: 10em;
+    width: 100%;
+    height: auto;
+    border-radius: 0.9375em;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2), 0 0.375em 1.25em 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+    font-size: 1.29em;
+    text-align: center;
+    background-color: deepskyblue;
+    border: 0.125em solid cyan;
+    border-radius: 1.25em;
+    padding: 0.03em;
+}
